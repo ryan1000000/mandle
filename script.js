@@ -1,6 +1,7 @@
 const targetWords = [
   "beard",
   "naked",
+  "bacon",
   "booze",
   "fires",
   "beers",
@@ -40,6 +41,7 @@ const targetWords = [
 const dictionary = [
   "aahed",
   "pukes",
+  "bacon",
   "drunk",
   "lucky",
   "aalii",
