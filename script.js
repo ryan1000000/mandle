@@ -13133,7 +13133,7 @@ function getActiveTiles() {
 function submitGuess() {
   const activeTiles = [...getActiveTiles()] // get the array of active tiles
   if (activeTiles.length !== WORD_LENGTH) { // if the guess isn't long enough, can't submit it!
-    showAlert("Not enough letters!")
+    showAlert("Can't you count?!")
     shakeTiles(activeTiles)
     return
   }
@@ -13143,7 +13143,7 @@ function submitGuess() {
   }, "") // returns a string
   
   if (!dictionary.includes(guess)) { // when the guess isn't a real word
-    showAlert("Not in word list!")
+    showAlert("That might be a word, but Ryan didn't add it to the list.")
     shakeTiles(activeTiles)
     return
   }
