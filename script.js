@@ -13181,7 +13181,7 @@ function flipTile(tile, index, array, guess) {
   }, { once: true })
 }
 
-function showAlert(message, duration = 1000) {
+function showAlert(message, duration = 5000) {
   const alert = document.createElement("div") // get the empty alert div
   alert.textContent = message // add message
   alert.classList.add("alert") // add alert class
