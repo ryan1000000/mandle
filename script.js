@@ -13101,6 +13101,7 @@ function handleKeyPress(e) {
   
   if (e.key === "Backspace" || e.key === "Delete") { // if user presses backspace or delete, delete key
     deleteKey()
+    return
   }
 
   if (e.key.match(/^[a-z]$/)) { // regex for one single letter between a and z
