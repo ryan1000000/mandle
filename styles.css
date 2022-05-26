@@ -12,7 +12,7 @@ body {
   padding-left: 5em;
   padding-right: 5em;
   padding-top: 0;
-  padding-bottom: 7em;
+  padding-bottom: 5em;
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
@@ -76,9 +76,9 @@ body {
 }
 
 .key.correct {
-  --hue: 115;
-  --saturation: 29%;
-  --lightness: 43%;
+  --hue: 300;
+  --saturation: 47%;
+  --lightness: 40%;
 }
 
 .guess-grid {
