@@ -9,9 +9,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding-top: 0;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding: 0;
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
@@ -90,6 +88,7 @@ body {
   grid-template-rows: repeat(6, 4em);
   gap: .25em;
   margin-bottom: 1em;
+  margin-top: -2em;
 }
 
 .tile {
