@@ -88,7 +88,7 @@ body {
   grid-template-rows: repeat(6, 4em);
   gap: .25em;
   margin-bottom: 1em;
-  margin-top: -2em;
+  margin-top: -5em;
 }
 
 .tile {
