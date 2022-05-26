@@ -26,7 +26,7 @@ body {
   grid-auto-rows: 3em;
   gap: .25em;
   justify-content: center;
-  padding-bottom: 15em;
+  padding-bottom: 5em;
 }
 
 .key {
