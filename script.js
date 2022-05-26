@@ -1,7 +1,7 @@
 const targetWords = [
   "beard",
-  "pukes",
   "naked",
+  "booze",
   "fires",
   "beers",
   "staff",
@@ -10,7 +10,7 @@ const targetWords = [
   "canoe",
   "truck",
   "shirt",
-  "booze",
+  "pukes",
   "laugh",
   "swims",
   "lucky",
