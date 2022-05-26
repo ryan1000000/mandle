@@ -1,10 +1,10 @@
 const targetWords = [
   "beard",
+  "pukes",
+  "lucky",
   "fires",
-  "smoke",
   "beers",
   "staff",
-  "booms",
   "shoes",
   "canoe",
   "truck",
@@ -38,6 +38,8 @@ const targetWords = [
 
 const dictionary = [
   "aahed",
+  "pukes",
+  "lucky",
   "aalii",
   "aargh",
   "aarti",
