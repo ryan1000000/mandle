@@ -13146,7 +13146,7 @@ function submitGuess() {
   }, "") // returns a string
   
   if (!dictionary.includes(guess)) { // when the guess isn't a real word
-    showAlert("That might be a word, but Ryan didn't add it to the list.")
+    showAlert("You've never been good at spelling... sad.")
     shakeTiles(activeTiles)
     return
   }
