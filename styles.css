@@ -9,7 +9,10 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 0;
+  padding-bottom: 7em;
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
@@ -118,7 +121,7 @@ body {
 
 .tile[data-state="correct"] {
   border: none;
-  background-color: hsl(115, 29%, 43%);
+  background-color: hsl(300, 47%, 40%);
 }
 
 .tile.shake {
