@@ -9,7 +9,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding: 0;
+  padding-top: 0;
+  padding-left: 5em;
+  padding-right: 5em;
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
@@ -26,7 +28,7 @@ body {
   grid-auto-rows: 3em;
   gap: .25em;
   justify-content: center;
-  padding-bottom: 2em;
+  padding-bottom: 15em;
 }
 
 .key {
