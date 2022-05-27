@@ -27,7 +27,7 @@ body {
   gap: .25em;
   justify-content: center;
   padding-bottom: 10em;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 .key {
@@ -88,7 +88,7 @@ body {
   grid-template-columns: repeat(5, 6em);
   grid-template-rows: repeat(6, 6em);
   gap: .25em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: -2em;
 }
 
