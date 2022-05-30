@@ -13215,7 +13215,7 @@ function checkWinLose(guess, tiles) {
         showAlert("Lucky bastard!", 5000)
     }
     if (remainingTiles.length === 20) {  //quested it in 2
-        showAlert("Mandle Master! You're close to discovering the true meaning of Mandle.", 5000)
+        showAlert("Mandle Master! You're close to discovering the true meaning of Mandle... or you could save some time and just ask Allan.", 5000)
     }
     if (remainingTiles.length === 15) {  //quested it in 3
         showAlert("Great job, man!", 5000)
