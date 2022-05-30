@@ -13234,9 +13234,9 @@ function checkWinLose(guess, tiles) {
     return
   }
 
-  const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])") // get all empty tiles
+  const remainingTiless = guessGrid.querySelectorAll(":not([data-letter])") // get all empty tiles
 
-  if (remainingTiles.length === 0) { // if no more remaining tiles
+  if (remainingTiless.length === 0) { // if no more remaining tiles
     showAlert("🚨YOU'VE BEEN MANDLED!🚨")
     showAlert(`The word was: ${targetWord.toUpperCase()}, idiot!`, null)
     stopInteraction
