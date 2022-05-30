@@ -13209,8 +13209,26 @@ function shakeTiles(tiles) {
 }
 
 function checkWinLose(guess, tiles) {
+  const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])") // get all empty tiles
   if (guess === targetWord) {
-    showAlert("Good job, man!", 5000)
+    if (remainingTiles.length === 25) {  //quested it in one
+        showAlert("Lucky bastard!", 5000)
+    }
+    if (remainingTiles.length === 20) {  //quested it in 2
+        showAlert("Mandle Master!", 5000)
+    }
+    if (remainingTiles.length === 15) {  //quested it in 3
+        showAlert("Great job, man!", 5000)
+    }
+    if (remainingTiles.length === 10) {  //quested it in 4
+        showAlert("You're an average man. Nothing wrong with that. Just nothing special either.", 5000)
+    }
+    if (remainingTiles.length === 5) {  //quested it in 5
+        showAlert("You did good... for a Nick.", 5000)
+    }
+    if (remainingTiles.length === 0) {  //quested it in 6
+        showAlert("Yikes... you okay over there? Need me to call Dr. Hall?", 5000)
+    }
     danceTiles(tiles)
     stopInteraction()
     return
