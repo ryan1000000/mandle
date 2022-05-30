@@ -5,6 +5,7 @@ const targetWords = [
   "booze",
   "fires",
   "lucas",
+  "booze",
   "beers",
   "staff",
   "drunk",
