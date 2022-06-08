@@ -14,6 +14,7 @@ const targetWords = [
   "truck",
   "shirt",
   "pukes",
+  "lucas",
   "laugh",
   "swims",
   "lucky",
