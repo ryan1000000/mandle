@@ -36,7 +36,13 @@ const targetWords = [
   "holes",
   "climb",
   "cigar",
-  "wines"
+  "wines",
+  "golfs",
+  "climb",
+  "photo",
+  "games",
+  "smoke",
+  "naked"
 ]
 
 const dictionary = [
