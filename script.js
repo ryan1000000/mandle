@@ -43,7 +43,8 @@ const targetWords = [
   "photo",
   "games",
   "smoke",
-  "naked"
+  "naked",
+  "chilly"
 ]
 
 const dictionary = [
