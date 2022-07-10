@@ -52,6 +52,7 @@ const targetWords = [
 ]
 
 const dictionary = [
+  "wade3",
   "aahed",
   "pukes",
   "bacon",
