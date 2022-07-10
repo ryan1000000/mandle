@@ -44,7 +44,11 @@ const targetWords = [
   "games",
   "smoke",
   "naked",
-  "chilly"
+  "chilly",
+  "candy",
+  "fight",
+  "songs",
+  "wade3",
 ]
 
 const dictionary = [
